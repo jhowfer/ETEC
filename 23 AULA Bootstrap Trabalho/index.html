@@ -18,6 +18,9 @@
 	<div> <img src="imagens/logo.png" class="d-block w-10" alt=""></div>
     
 		<!-- MENU e SEARCH-->
+		<nav class="navbar navbar-dark bg-dark">
+		  <!-- Conteúdo do navbar -->
+		</nav>
 		<nav class="navbar navbar-expand-lg bg-body-tertiary">
 		  <div class="container-fluid navbar bg-dark border-black" data-bs-theme="dark"> <!--Altere a classe para alterar a barra do menu-->
 			
@@ -29,29 +32,29 @@
 			  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
 				<li class="nav-item">
-				  <a class="nav-link" href="Scripts/cardapio.html">Cardápios</a>
+				  <a class="nav-link fs-4" href="Scripts/cardapio.html">Cardápios</a>
 				</li>
 				
 				<li class="nav-item dropdown">
-				  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>  
+				  <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>  
 				  <ul class="dropdown-menu">
-					<li class="nav-item"><a class="dropdown-item" href="Scripts/hamburguer.html">Hamburguer</a></li>
-					<li class="nav-item"><a class="dropdown-item" href="Scripts/hotdogs.html">Hotdogs</a></li>
-					<li class="nav-item"><a class="dropdown-item" href="Scripts/bebidas.html">Bebidas</a></li>
-					<li class="nav-item"><a class="dropdown-item" href="Scripts/doces.html">Doces</a></li>
+					<li class="nav-item fs-4"><a class="dropdown-item" href="Scripts/hamburguer.html">Hamburguer</a></li>
+					<li class="nav-item fs-4"><a class="dropdown-item" href="Scripts/hotdogs.html">Hotdogs</a></li>
+					<li class="nav-item fs-4"><a class="dropdown-item" href="Scripts/bebidas.html">Bebidas</a></li>
+					<li class="nav-item fs-4"><a class="dropdown-item" href="Scripts/doces.html">Doces</a></li>
 				  </ul>
 				</li>
 				
 				<li class="nav-item">
-				  <a class="nav-link" href="Scripts/menuInfantil.html" >Menu Infantil</a>
+				  <a class="nav-link fs-4 font-weight-bold" href="Scripts/menuInfantil.html" >Menu Infantil</a>
 				</li>
 				<li class="nav-item">
-				  <a class="nav-link disabled">Quem Somos</a>
+				  <a class="nav-link disabled fs-4 ">Quem Somos</a>
 				</li>
 				
 				<!--Botão modal inicio-->
 				<li class="nav-item">
-				  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Contato</button>
+				  <button type="button" class="btn fs-4" data-bs-toggle="modal" data-bs-target="#exampleModal">Contato</button>
 				</li>
 				<!--Fim botão do modal-->
 				
@@ -64,7 +67,11 @@
 			  
 			</div>
 		  </div>
-		</nav>		
+		</nav>	
+		<nav class="navbar navbar-dark bg-dark">
+		  <!-- Conteúdo do navbar -->
+		</nav>	
+
 	<!--Fim MENU e SEARCH-->	
 	
 	<br>
@@ -87,7 +94,7 @@
 		  </div>
 		  <div class="row">
 			<div class="col">
-			  <a type="button" class="btn btn-secondary" href="#Hamburger">Hamburger</a>
+			  <a type="button" class="btn btn-secondary" href="#Hamburger">Hambúrguer</a>
 			</div>
 			<div class="col">
 			  <a type="button" class="btn btn-secondary" href="#HotDogs">Hot-Dogs</a>
@@ -102,10 +109,10 @@
 		</div>
 	<!--Fim Grid-->
 
-	<br><hr>
+	<br>
 	
 	<!--Carousel-->
-	<div id="carouselExample" class="carousel slide">
+	<div id="carouselExample" class="carousel slide border">
 	  <div class="carousel-inner">
 		<div class="carousel-item active">
 		  <img src="imagens/hamburger00.jpg" class="d-block w-80" alt="...">
@@ -151,7 +158,7 @@
 			  <div class="card-body">
 				<p class="card-text">HAMBURGUER DUPLO CATUPIRY</p>
 			  </div>
-			  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+			  <button type="button" class="btn btn-secondary btn-lg "href="https://www.mcdonalds.com.br">Comprar</button>
 		    </div>
 			<br>
 		</div>
@@ -162,7 +169,7 @@
 			  <div class="card-body">
 				<p class="card-text">HAMBURGUER DUPLO CHEDDAR</p>
 			  </div>
-			  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+			  <button type="button" class="btn btn-secondary btn-lg "href="https://www.mcdonalds.com.br">Comprar</button>
 		    </div>
 			<br>
 		</div>
@@ -183,7 +190,7 @@
 				  <div class="card-body">
 					<p class="card-text">HAMBURGUER DUPLO ANGUS</p>
 				  </div>
-				  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+				  <button type="button" class="btn btn-secondary btn-lg" href="https://www.mcdonalds.com.br"href="https://www.mcdonalds.com.br">Comprar</button>
 				</div>
 			</div>
 			
@@ -193,7 +200,7 @@
 				  <div class="card-body">
 					<p class="card-text">HAMBURGUER SALADA</p>
 				  </div>
-				  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+				  <button type="button" class="btn btn-secondary btn-lg "href="https://www.mcdonalds.com.br">Comprar</button>
 				</div>
 			</div>
 			<div class="col-sm">
@@ -222,7 +229,7 @@
 				  <div class="card-body">
 					<p class="card-text">HOT-DOG Chaddar e Bacon</p>
 				  </div>
-				  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+				  <button type="button" class="btn btn-secondary btn-lg "href="https://www.mcdonalds.com.br">Comprar</button>
 				</div>
 				<br>
 			</div>
@@ -233,7 +240,7 @@
 				  <div class="card-body">
 					<p class="card-text">HOT-DOG CreamChease e Bacon</p>
 				  </div>
-				  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+				  <button type="button" class="btn btn-secondary btn-lg "href="https://www.mcdonalds.com.br">Comprar</button>
 				</div>
 				<br>
 			</div>
@@ -254,7 +261,7 @@
 					  <div class="card-body">
 						<p class="card-text">HOT-DOG Chease</p>
 					  </div>
-					  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+					  <button type="button" class="btn btn-secondary btn-lg "href="https://www.mcdonalds.com.br">Comprar</button>
 					</div>
 				</div>
 				
@@ -264,7 +271,7 @@
 					  <div class="card-body">
 						<p class="card-text">HOT-DOG GOURMET</p>
 					  </div>
-					  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+					  <button type="button" class="btn btn-secondary btn-lg "href="https://www.mcdonalds.com.br">Comprar</button>
 					</div>
 				</div>
 				<div class="col-sm">
@@ -293,7 +300,7 @@
 				  <div class="card-body">
 					<p class="card-text">Coca Cola</p>
 				  </div>
-				  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+				  <button type="button" class="btn btn-secondary btn-lg "href="https://www.mcdonalds.com.br">Comprar</button>
 				</div>
 				<br>
 			</div>
@@ -304,7 +311,7 @@
 				  <div class="card-body">
 					<p class="card-text">Aguardente</p>
 				  </div>
-				  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+				  <button type="button" class="btn btn-secondary btn-lg "href="https://www.mcdonalds.com.br">Comprar</button>
 				</div>
 				<br>
 			</div>
@@ -325,7 +332,7 @@
 					  <div class="card-body">
 						<p class="card-text">BloodMary</p>
 					  </div>
-					  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+					  <button type="button" class="btn btn-secondary btn-lg "href="https://www.mcdonalds.com.br">Comprar</button>
 					</div>
 				</div>
 				
@@ -335,7 +342,7 @@
 					  <div class="card-body">
 						<p class="card-text">Caipirinha</p>
 					  </div>
-					  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+					  <button type="button" class="btn btn-secondary btn-lg "href="https://www.mcdonalds.com.br">Comprar</button>
 					</div>
 				</div>
 				<div class="col-sm">
@@ -364,7 +371,7 @@
 				  <div class="card-body">
 					<p class="card-text">Brigadeiro</p>
 				  </div>
-				  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+				  <button type="button" class="btn btn-secondary btn-lg "href="https://www.mcdonalds.com.br">Comprar</button>
 				</div>
 				<br>				
 			</div>
@@ -375,7 +382,7 @@
 				  <div class="card-body">
 					<p class="card-text">Bomva de doce de leite</p>
 				  </div>
-				  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+				  <button type="button" class="btn btn-secondary btn-lg "href="https://www.mcdonalds.com.br">Comprar</button>
 				</div>
 				<br>
 			</div>
@@ -397,7 +404,7 @@
 					  <div class="card-body">
 						<p class="card-text">Sonho</p>
 					  </div>
-					  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+					  <button type="button" class="btn btn-secondary btn-lg "href="https://www.mcdonalds.com.br">Comprar</button>
 					</div>
 				</div>
 				
@@ -407,7 +414,7 @@
 					  <div class="card-body">
 						<p class="card-text">Pudim de moça</p>
 					  </div>
-					  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+					  <button type="button" class="btn btn-secondary btn-lg" href="https://www.mcdonalds.com.br">Comprar</button>
 					</div>
 				</div>
 				<div class="col-sm">
@@ -520,7 +527,7 @@
 					  <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
 					<div class="modal-footer">
 						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-						<button type="submit" class="btn btn-danger">Enviar</button>
+						<button type="submit" class="btn btn-secondary">Enviar</button>
 					</form>
 					
 					</div>
