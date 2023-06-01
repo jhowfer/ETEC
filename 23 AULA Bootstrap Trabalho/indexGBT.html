@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lanchonete</title>
+  <!-- Adicione o link para o CSS do Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">Lanchonete</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+		  aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item active">
+			  <a class="nav-link" href="#">Início</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Cardápio</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Contato</a>
+			</li>
+		  </ul>
+		</div>
+		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item">
+			  <form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+			  </form>
+			</li>
+		  </ul>
+		</div>
+	  </nav>
+	
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Bem-vindo à Lanchonete</h1>
+      <p>Aqui está o nosso cardápio:</p>
+
+      <div class="card-deck">
+	  	<div class="card">
+          <div class="card-body">
+          </div>
+        </div>
+	  
+        <div class="card">
+          <img src="imagens/duploangus.jpg" class="card-img-top" alt="Hambúrguer">
+          <div class="card-body">
+            <h5 class="card-title">Hambúrguer</h5>
+            <p class="card-text">Delicioso hambúrguer artesanal.</p>
+            <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+          </div>
+        </div>
+		
+        <div class="card">
+          <img src="imagens/duploangus.jpg" class="card-img-top" alt="Pizza">
+          <div class="card-body">
+            <h5 class="card-title">Pizza</h5>
+            <p class="card-text">Sabores variados de pizza.</p>
+            <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+          </div>
+        </div>
+		
+        <div class="card">
+          <img src="imagens/duploangus.jpg" class="card-img-top" alt="Sanduíche">
+          <div class="card-body">
+            <h5 class="card-title">Sanduíche</h5>
+            <p class="card-text">Opções de sanduíche para todos os gostos.</p>
+            <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+          </div>
+        </div>
+		
+		<div class="card btn">
+          <div class="">
+          </div>
+        </div>
+		
+      </div>
+    </div>
+	<br>
+	
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p>© 2023 Lanchonete. Todos os direitos reservados.</p>
