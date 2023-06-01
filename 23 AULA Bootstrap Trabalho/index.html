@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aula 3 bootstrap</title>
+    <link href="css/bootstrap.css" rel="stylesheet" >
+  </head>
+  
+<body>
+	<a name="topo"/><!--Ancora topo-->
+
+	<center>
+	
+	<!-- CONTEUDO -->
+	<div class="container">
+    
+	<div> <img src="imagens/logo.png" class="d-block w-10" alt=""></div>
+    
+	<!-- MENU e SEARCH-->
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+	  <div class="container-fluid navbar bg-dark border-black" data-bs-theme="dark"> <!--Altere a classe para alterar a barra do menu-->
+		
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+			<li class="nav-item">
+			  <a class="nav-link" href="Scripts/cardapio.html">Cardápios</a>
+			</li>
+			
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>  
+			  <ul class="dropdown-menu">
+				<li class="nav-item"><a class="dropdown-item" href="Scripts/hamburguer.html">Hamburguer</a></li>
+				<li class="nav-item"><a class="dropdown-item" href="Scripts/hotdogs.html">Hotdogs</a></li>
+				<li class="nav-item"><a class="dropdown-item" href="Scripts/bebidas.html">Bebidas</a></li>
+				<li class="nav-item"><a class="dropdown-item" href="Scripts/doces.html">Doces</a></li>
+			  </ul>
+			</li>
+			
+			<li class="nav-item">
+			  <a class="nav-link" href="Scripts/menuInfantil.html" >Menu Infantil</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link disabled">Quem Somos</a>
+			</li>
+			
+			<!--Botão modal inicio-->
+			<li class="nav-item">
+			  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Contato</button>
+			</li>
+			<!--Fim botão do modal-->
+		  </ul>
+			  
+		  <form class="d-flex" role="search">
+			<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+			<button class="btn btn-outline-danger" type="submit">Search</button>&nbsp&nbsp&nbsp
+		  </form>
+		  
+		</div>
+	  </div>
+	</nav>		
+	<!--Fim MENU e SEARCH-->	
+	
+	<br>
+	
+	<!--GRID-->
+	<div class="container text-center">
+	  <div class="row"><!--Imagens das grids-->
+		<div class="col">
+		 <center><image src="imagens/hamburgericon.png" class="d-block w-10" alt=""/></center>
+		</div>
+		<div class="col">
+		  <center><img src="imagens/hotdog.png" class="d-block w-10" alt=""></center>
+		</div>
+		<div class="col">
+		  <center><img src="imagens/bebidas.png" class="d-block w-10" alt=""></center>
+		</div>
+		<div class="col">
+		   <center><img src="imagens/doces.png" class="d-block w-10" alt=""></center>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col">
+		  <a type="button" class="btn btn-secondary" href="#Hamburger">Hamburger</a>
+		</div>
+		<div class="col">
+		  <a type="button" class="btn btn-secondary" href="#HotDogs">Hot-Dogs</a>
+		</div>
+		<div class="col">
+		  <a type="button" class="btn btn-secondary" href="#Bebidas">Bebidas</a>
+		</div>
+		<div class="col">
+		  <a type="button" class="btn btn-secondary" href="#Doces">Doces</a>
+		</div>
+	  </div>
+	</div>
+	<!--Fim Grid-->
+
+	<br><hr>
+	
+	<!--Carousel-->
+	<div id="carouselExample" class="carousel slide">
+	  <div class="carousel-inner">
+		<div class="carousel-item active">
+		  <img src="imagens/hamburger00.jpg" class="d-block w-80" alt="...">
+		</div>
+		<div class="carousel-item">
+		  <img src="imagens/hotdog00.jpg" class="d-block w-80" alt="...">
+		</div>
+		<div class="carousel-item">
+		  <img src="imagens/bebidas00.jpg" class="d-block w-80" alt="...">
+		</div>
+		<div class="carousel-item">
+		  <img src="imagens/doces00.jpg" class="d-block w-80" alt="...">
+		</div>
+	  </div>
+	  
+	  <button class="carousel-control-prev btn btn-secondary" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Previous</span>
+	  </button>
+	  <button class="carousel-control-next btn btn-secondary" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Next</span>
+	  </button>
+	</div>
+
+	<!-- FIM Carousel-->
+	<br><hr>
+		
+	<!--CARD 01-->	
+	<h1>HAMBURGERES</h1>
+	<p>Lorem ipsum dolor sit amet. Ea quas voluptate vel vitae aliquam ea nihil quia eos animi galisum. Et enim facere ab assumenda quia eos molestiae optio rem necessitatibus ullam sed rerum tempora aut unde quia. Est optio error ut officia officia hic laudantium perferendis ut sint ullam et sapiente pariatur aut voluptatibus voluptas nam vitae porro.</P>
+	<div class="container">
+	<!--HAMBURGERES-->
+	<a name="Hamburger">
+	  <div class="row">
+		<div class="col-sm">
+		<!--Alinhamento-->
+		</div>
+		
+		<div class="col-sm">
+		    <div class="card" style="width: 18rem;">
+			  <img src="imagens/duplocatupiry.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<p class="card-text">HAMBURGUER DUPLO CATUPIRY</p>
+			  </div>
+			  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+		    </div>
+		</div>
+		
+		<div class="col-sm">
+		  	<div class="card" style="width: 18rem;">
+			  <img src="imagens/duplocheddar.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+				<p class="card-text">HAMBURGUER DUPLO CHEDDAR</p>
+			  </div>
+			  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+		    </div>
+		</div>
+		<div class="col-sm">
+		<!--Alinhamento-->
+		</div>
+	  </div>
+	  
+	  
+	  	<div class="row">
+			<div class="col-sm">
+			<!--Alinhamento-->
+			</div>
+			
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+				  <img src="imagens/duploangus.jpg" class="card-img-top" alt="...">
+				  <div class="card-body">
+					<p class="card-text">HAMBURGUER DUPLO ANGUS</p>
+				  </div>
+				  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+				</div>
+			</div>
+			
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+				  <img src="imagens/salada.jpg" class="card-img-top" alt="...">
+				  <div class="card-body">
+					<p class="card-text">HAMBURGUER SALADA</p>
+				  </div>
+				  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+				</div>
+			</div>
+			<div class="col-sm">
+			<!--Alinhamento-->
+			</div>
+		  </div>
+		</div>
+	</a>
+	
+	<br><hr>
+	
+		<!--CARD 02-->	
+	<a name="HotDogs">
+		<h1>HOT-DOGS</h1>
+			<p>Lorem ipsum dolor sit amet. Ea quas voluptate vel vitae aliquam ea nihil quia eos animi galisum. Et enim facere ab assumenda quia eos molestiae optio rem necessitatibus ullam sed rerum tempora aut unde quia. Est optio error ut officia officia hic laudantium perferendis ut sint ullam et sapiente pariatur aut voluptatibus voluptas nam vitae porro.</P>
+		<div class="container">
+		<!--HotDogs-->
+		  <div class="row">
+			<div class="col-sm">
+			<!--Alinhamento-->
+			</div>
+			
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+				  <img src="imagens/hotdog01.png" class="card-img-top" alt="...">
+				  <div class="card-body">
+					<p class="card-text">HOT-DOG Chaddar e Bacon</p>
+				  </div>
+				  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+				</div>
+			</div>
+			
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+				  <img src="imagens/hotdog02.png" class="card-img-top" alt="...">
+				  <div class="card-body">
+					<p class="card-text">HOT-DOG CreamChease e Bacon</p>
+				  </div>
+				  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+				</div>
+			</div>
+			<div class="col-sm">
+			<!--Alinhamento-->
+			</div>
+		  </div>
+		  
+		  
+			<div class="row">
+				<div class="col-sm">
+				<!--Alinhamento-->
+				</div>
+				
+				<div class="col-sm">
+					<div class="card" style="width: 18rem;">
+					  <img src="imagens/hotdog03.png" class="card-img-top" alt="...">
+					  <div class="card-body">
+						<p class="card-text">HOT-DOG Chease</p>
+					  </div>
+					  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+					</div>
+				</div>
+				
+				<div class="col-sm">
+					<div class="card" style="width: 18rem;">
+					  <img src="imagens/hotdog04.png" class="card-img-top" alt="...">
+					  <div class="card-body">
+						<p class="card-text">HOT-DOG GOURMET</p>
+					  </div>
+					  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+					</div>
+				</div>
+				<div class="col-sm">
+				<!--Alinhamento-->
+				</div>
+			  </div>
+			</div>
+	</a>
+		
+		<br><hr>
+		
+	<!--CARD 03-->	
+	<a name="Bebidas">
+		<h1>BEBIDAS</h1>
+			<p>Lorem ipsum dolor sit amet. Ea quas voluptate vel vitae aliquam ea nihil quia eos animi galisum. Et enim facere ab assumenda quia eos molestiae optio rem necessitatibus ullam sed rerum tempora aut unde quia. Est optio error ut officia officia hic laudantium perferendis ut sint ullam et sapiente pariatur aut voluptatibus voluptas nam vitae porro.</P>
+		<div class="container">
+		<!--Bebidas-->
+		  <div class="row">
+			<div class="col-sm">
+			<!--Alinhamento-->
+			</div>
+			
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+				  <img src="imagens/bebida01.png" class="card-img-top" alt="...">
+				  <div class="card-body">
+					<p class="card-text">Coca Cola</p>
+				  </div>
+				  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+				</div>
+			</div>
+			
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+				  <img src="imagens/bebida02.png" class="card-img-top" alt="...">
+				  <div class="card-body">
+					<p class="card-text">Aguardente</p>
+				  </div>
+				  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+				</div>
+			</div>
+			<div class="col-sm">
+			<!--Alinhamento-->
+			</div>
+		  </div>
+		  
+		  
+			<div class="row">
+				<div class="col-sm">
+				<!--Alinhamento-->
+				</div>
+				
+				<div class="col-sm">
+					<div class="card" style="width: 18rem;">
+					  <img src="imagens/bebida03.png" class="card-img-top" alt="...">
+					  <div class="card-body">
+						<p class="card-text">BloodMary</p>
+					  </div>
+					  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+					</div>
+				</div>
+				
+				<div class="col-sm">
+					<div class="card" style="width: 18rem;">
+					  <img src="imagens/bebida04.png" class="card-img-top" alt="...">
+					  <div class="card-body">
+						<p class="card-text">Caipirinha</p>
+					  </div>
+					  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+					</div>
+				</div>
+				<div class="col-sm">
+				<!--Alinhamento-->
+				</div>
+			  </div>
+			</div>
+	</a>
+		
+		<br><hr>
+
+			<!--CARD 04-->	
+	<a name="Doces">
+		<h1>DOCES</h1>
+			<p>Lorem ipsum dolor sit amet. Ea quas voluptate vel vitae aliquam ea nihil quia eos animi galisum. Et enim facere ab assumenda quia eos molestiae optio rem necessitatibus ullam sed rerum tempora aut unde quia. Est optio error ut officia officia hic laudantium perferendis ut sint ullam et sapiente pariatur aut voluptatibus voluptas nam vitae porro.</P>
+		<div class="container">
+		<!--Doces-->
+		  <div class="row">
+			<div class="col-sm">
+			<!--Alinhamento-->
+			</div>
+			
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+				  <img src="imagens/doce01.png" class="card-img-top" alt="...">
+				  <div class="card-body">
+					<p class="card-text">Brigadeiro</p>
+				  </div>
+				  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+				</div>
+				
+			</div>
+			
+			<div class="col-sm">
+				<div class="card" style="width: 18rem;">
+				  <img src="imagens/doce02.png" class="card-img-top" alt="...">
+				  <div class="card-body">
+					<p class="card-text">Bomva de doce de leite</p>
+				  </div>
+				  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+				</div>
+			</div>
+			
+			<div class="col-sm">
+			<!--Alinhamento-->
+			</div>
+		  </div>
+		  
+		  
+			<div class="row">
+				<div class="col-sm">
+				<!--Alinhamento-->
+				</div>
+				
+				<div class="col-sm">
+					<div class="card" style="width: 18rem;">
+					  <img src="imagens/doce03.png" class="card-img-top" alt="...">
+					  <div class="card-body">
+						<p class="card-text">Sonho</p>
+					  </div>
+					  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+					</div>
+				</div>
+				
+				<div class="col-sm">
+					<div class="card" style="width: 18rem;">
+					  <img src="imagens/doce04.png" class="card-img-top" alt="...">
+					  <div class="card-body">
+						<p class="card-text">Pudim de moça</p>
+					  </div>
+					  <button type="button" class="btn btn-danger btn-lg">Comprar</button>
+					</div>
+				</div>
+				<div class="col-sm">
+				<!--Alinhamento-->
+				</div>
+			  </div>
+			  
+			</div>
+	</a>
+		
+		<br><hr>	
+		
+	<!--Contato e caixa de texto-->
+	
+	
+	<!--MAPA-->
+	<h1>Onde estamos?</h1>
+	<div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14765.970381873396!2d-48.56551973550694!3d-22.297202679637746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2sbr!4v1685053946551!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+	<br>	
+
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+	  
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+   
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://www.facebook.com" class="text-white">Facebook</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://www.instagram.com" class="text-white">Instagram</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://twitter.com/?lang=pt-br" class="text-white">Twitter </a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="https://www.whatsapp.com/?lang=pt_br" class="text-white">WhatsApp</a>
+			  <!--<img src="imagens/icones/wpp.png" class="w-2 p-3" alt="...">-->
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+  
+  <!-- Button trigger modal -->
+		
+
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+			<div class="modal-content">
+			  <div class="modal-header">
+				<h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			  </div>
+			  <div class="modal-body">
+				...
+			  </div>
+			  <div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save changes</button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+   
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">JonathanFernando.com.br</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+	
+	
+	
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+ 
+ </body>
+ 
+ </html>
+ 
+ 
